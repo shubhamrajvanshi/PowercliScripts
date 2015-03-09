@@ -1,0 +1,1 @@
+﻿Get-PSSnapin -Registered | ?{$_.Name -like "VMware*" } | Add-PSSnapin
